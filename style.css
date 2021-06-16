@@ -1,0 +1,440 @@
+
+body,html{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    
+    
+}
+body{
+    background-color: pink;
+    padding: 0;
+    margin: 0%;
+
+}
+
+
+#FirstPage{
+    width: 100%;
+    height: 100vh;
+    background-image: url("pageTwo.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+   
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.192);
+}
+
+
+header{
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.226);
+    position: relative;
+    bottom: 20px;
+    height: 20vh;
+  
+
+  
+}
+ul{
+    list-style: none;
+    display: flex;
+    text-align: right;
+    justify-content: space-evenly;
+    position: relative;
+    top: 65px;
+    color: rgb(199, 198, 198);
+}
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.507);
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul li a:hover{
+    color: rgb(63, 190, 46);
+    text-shadow: none;
+}
+
+.logo{
+    position: relative;
+    width: 120px;
+    height: 130px;
+    bottom: 40px;
+    right: 50px;
+}
+
+#title{
+    font-size: 40px;
+}
+#landingBox{
+   
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    position: relative;
+    top: 40%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+#landingBox h1{
+    font-size: 45px;
+    color: hsl(319, 100%, 91%);
+    text-shadow: 5px 3px 3px rgba(0, 0, 0, 0.507);
+    font-family: 'Vibur', cursive;
+}
+
+
+#landingButton{
+    background:#ffffffe7;
+    border-radius: 20px;
+    padding:10px 20px;
+    border-color: rgba(206, 126, 126, 0);
+    text-shadow: none;
+    color: rgb(41, 82, 53);
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.233);
+    display:inline-block;
+    font-size: 12px;
+    text-align:center;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.226);
+    
+    text-decoration: none;
+    
+}
+
+#secondPage
+{
+    background-color: rgb(241, 241, 241);
+    width: 100%;
+    height: 200vh;
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+}
+
+#break{
+    width: 100%;
+    height: 1vh;
+    background-color: white;
+    box-shadow: 15px 5px 5px black;
+}
+
+#box{
+    width: 60%;
+    height: 20%;
+    background-color: rgba(236, 33, 192, 0.048);
+    position: relative;
+    bottom: 20%;
+    right: 20%;
+    
+}
+
+#Circle{
+    width: 60%;
+    height: 40%;
+    background-color: rgba(236, 33, 192, 0.048);
+    position: relative;
+    bottom: 60%;
+    left: 80%;
+    border-radius:50%;
+}
+
+
+
+#hours{
+    font-size: 12px;
+    position: relative;
+    top: 8%;
+    opacity: 80%;
+}
+
+#inner{
+    width: 80%;
+    height: 90vh;
+    
+    position: relative;
+    top: 15vh;
+    left: 10%;
+    color: hsl(320, 84%, 80%);
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+
+#inner p{
+    color: rgb(5, 5, 5);
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+   
+    color: rgb(41, 82, 53);
+    
+}
+
+#inner a{
+   
+
+    background:#ffffff;
+    border-radius: 20px;
+    padding:10px 20px;
+    border-color: rgba(206, 126, 126, 0);
+    text-shadow: none;
+    color: rgb(41, 82, 53);
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.233);
+    display:inline-block;
+    font-size: 12px;
+    text-align:center;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.61);
+    text-decoration: none;
+    
+    
+}
+
+#picBreak{
+    width: 100%;
+    height: 40vh;
+    opacity: 90%;
+    position: relative;
+    bottom: 10%;
+    background-color: none;
+    
+
+}
+
+#topHalf,#bottomHalf{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#bottomHalf{
+    position: relative;
+    top: 3%;
+}
+
+#firstImg{
+    width: 47%;
+    height: 100%;
+    background-image: url("juice.jpeg");
+    background-size: cover;
+    background-position: center;
+
+}
+#secondImg{
+    width: 47%;
+    height: 100%;
+    background-image: url("fruitImg.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+#first2Img{
+    width: 30%;
+    height: 100%;
+    background-image: url("acai.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+#second2Img{
+    width: 30%;
+    height: 100%;
+    background-image: url("juice2.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+#third2Img{
+    width: 33%;
+    height: 100%;
+    background-image: url("strawberry.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+#contact{
+    width: 100%;
+    height: 40vh;
+    
+}
+
+#contact form{
+   
+    width: 80%;
+    height: 60vh;
+    position: relative;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: hsl(320, 84%, 80%);
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    background-color: rgba(246, 246, 246, 0.548);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    position: relative;
+    bottom: 20vh;
+    
+}
+
+#my-form-status{
+    color: green;
+}
+
+#box2{
+    width: 100%;
+    height: 30%;
+    background-color: rgba(255, 192, 203, 0.349);
+}
+#contact button {
+    background:#ffffff;
+    border-radius: 20px;
+    padding:10px 20px;
+    border-color: rgba(206, 126, 126, 0);
+    text-shadow: none;
+    color: rgb(41, 82, 53);
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.233);
+    display:inline-block;
+    font-size: 12px;
+    text-align:center;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.61);
+    text-decoration: none;
+}
+
+
+footer{
+    width: 100%;
+    height: 15vh;
+    background-color: pink;
+    box-shadow: -3px -3px 3px rgba(0, 0, 0, 0.034);
+}
+
+#socials{
+    width: 40%;
+    height: 100%;
+
+    font-size: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 60%;
+    position: relative;
+    justify-content: center;
+   
+    
+
+
+
+}
+
+#socials h2{
+    color: rgb(46, 29, 29);
+    font-size: 10px;
+    color: white;
+}
+
+#footerLogo{
+    width: 100px;
+    height: 100px;
+}
+#outer{
+    
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#SocialsInnner{
+    width: 80%;
+  
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (orientation: landscape)  and (max-height:700px){
+    #secondPage
+{
+    
+    height: 250vh;
+    
+   
+}
+#contact button {
+    top: 30%;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.226);
+    position: relative;
+    bottom: 20px;
+    height: 30vh;
+  
+
+  
+}
+
+  }
+
+
+  @media  (min-width:700px){
+    #socials h2{
+        
+        font-size: 20px;
+        
+    }
+    
+    #footerLogo{
+        width: 130px;
+        height: 130px;
+    }
+
+    #socialsImg{
+        width: 25px;
+        height: 25px;
+    }
+  } 
+
+  @media  (min-width:1000px){
+    #socials h2{
+       
+        font-size: 30px;
+
+    }
+    
+    #footerLogo{
+        width: 130px;
+        height: 130px;
+    }
+
+    #socialsImg{
+        width: 35px;
+        height: 35px;
+    }
+  } 
