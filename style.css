@@ -379,6 +379,114 @@ footer{
     justify-content: space-evenly;
 }
 
+#MenuPage{
+    width: 100%;
+    height: 250vh;
+    background-image: url("pageTwo.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+   
+}
+
+#menu{
+    width: 80%;
+    height: 20vh;
+    top: 25vh;
+    position: relative;
+    left: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#menu h2{
+    font-size: 10px;
+    color: white;
+}
+
+#title{
+    color: rgb(251, 167, 237);
+    background-color: rgb(250, 250, 250);
+}
+
+#containMenu{
+    width: 90%;
+    height: 200vh;
+   
+    position: relative;
+    left: 5%;
+    top: 30vh;
+  
+    
+}
+#smoothies{
+    width: 80vw;
+    height: 70vh;
+    background-color: white;
+    position: relative;
+    left: 5%;
+}
+
+
+#title{
+    width: 100%;
+    height: 10vh;
+    
+    text-align: center;
+}
+
+#bottomSection{
+    width: 100%;
+    height: 140vh;
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#vert{
+    width: 90%;
+    height: 10vh;
+    position: relative;
+    left: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#left{
+    width: 70%;
+    height: 100%;
+}
+#right{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-evenly;
+    
+}
+
+#vert h2{
+    font-size: 15px;
+    color: pink;
+}
+#vert p{
+    font-size: 12px;
+    width: 80%;
+    color: rgb(151, 149, 149);
+}
+#right p {
+    font-size: 10px;
+    width: 80%;
+    color: rgb(61, 167, 0);
+    position: relative;
+    top: 2vh;
+}
+
+
+
 @media (orientation: landscape)  and (max-height:700px){
     #secondPage
 {
